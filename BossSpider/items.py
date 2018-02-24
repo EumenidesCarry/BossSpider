@@ -14,5 +14,8 @@ class BossspiderItem(scrapy.Item):
     # pass
     post = scrapy.Field()
     salary = scrapy.Field()
-    # area = scrapy.Field()
-    # company = scrapy.Field()
+    area = scrapy.Field()
+    company = scrapy.Field()
+    exp = scrapy.Field()
+    industry = scrapy.Field()
+    edu = scrapy.Field()
